@@ -1,0 +1,32 @@
+{
+	"name": "tr_ingest_ecdc_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_ingest_ecdc_data",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2021-01-31T22:57:00",
+				"timeZone": "South Africa Standard Time",
+				"schedule": {
+					"minutes": [
+						58
+					],
+					"hours": [
+						22
+					]
+				}
+			}
+		}
+	}
+}

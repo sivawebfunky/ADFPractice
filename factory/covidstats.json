@@ -1,0 +1,9 @@
+{
+	"name": "covidstats",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "516468c0-3cc3-4acc-bac1-3b9272582a24",
+		"tenantId": "7392b30b-5ae7-4038-bc51-800921a4c0b5"
+	}
+}
